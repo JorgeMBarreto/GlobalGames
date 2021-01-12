@@ -15,21 +15,21 @@ namespace GlobalGames.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Sobre()
         {
-            ViewData["Message"] = "Your application description page.";
+            
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Servicos()
         {
-            ViewData["Message"] = "Your contact page.";
+            
 
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Inscricoes()
         {
             return View();
         }
